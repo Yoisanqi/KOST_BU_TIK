@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/crud">
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="123dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="144dp"
+        android:text="UBAH PENYEWA"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="30dp"
+        android:text="Nama"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView23" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="NIK"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="@+id/edNamaU"
+        app:layout_constraintTop_toBottomOf="@+id/edNamaU" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Alamat"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="@+id/edNikU"
+        app:layout_constraintTop_toBottomOf="@+id/edNikU" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Email"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="@+id/edTeleponU"
+        app:layout_constraintTop_toBottomOf="@+id/edTeleponU" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Tanggal Masuk"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="@+id/edEmailU"
+        app:layout_constraintTop_toBottomOf="@+id/edEmailU" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Telepon"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="@+id/edAlamatU"
+        app:layout_constraintTop_toBottomOf="@+id/edAlamatU" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Kamar"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="@+id/edTanggalU"
+        app:layout_constraintTop_toBottomOf="@+id/edTanggalU" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="5dp"
+        android:text="Status"
+        android:textColor="#000000"
+        app:layout_constraintStart_toEndOf="@+id/textView30"
+        app:layout_constraintTop_toBottomOf="@+id/edTanggalU" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Foto KTP"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="@+id/edKamarU"
+        app:layout_constraintTop_toBottomOf="@+id/edKamarU" />
+
+    <EditText
+        android:id="@+id/edNamaU"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:inputType="text"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="@+id/textView24"
+        app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+    <EditText
+        android:id="@+id/edNikU"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="@+id/textView25"
+        tools:layout_editor_absoluteY="233dp" />
+
+    <EditText
+        android:id="@+id/edAlamatU"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:inputType="text"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="@+id/textView26"
+        app:layout_constraintTop_toBottomOf="@+id/textView26" />
+
+    <EditText
+        android:id="@+id/edTeleponU"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:inputType="text"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="@+id/textView27"
+        app:layout_constraintTop_toBottomOf="@+id/textView27" />
+
+    <EditText
+        android:id="@+id/edEmailU"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:inputType="text"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="@+id/textView28"
+        app:layout_constraintTop_toBottomOf="@+id/textView28" />
+
+    <EditText
+        android:id="@+id/edTanggalU"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:inputType="text"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="@+id/textView29"
+        app:layout_constraintTop_toBottomOf="@+id/textView29" />
+
+    <EditText
+        android:id="@+id/edKamarU"
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:inputType="text"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="@+id/textView30"
+        app:layout_constraintTop_toBottomOf="@+id/textView30" />
+
+    <EditText
+        android:id="@+id/edStatusU"
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:inputType="text"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="@+id/textView31"
+        app:layout_constraintTop_toBottomOf="@+id/textView31" />
+
+    <EditText
+        android:id="@+id/edFotoU"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:inputType="text"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="@+id/textView32"
+        app:layout_constraintTop_toBottomOf="@+id/textView32" />
+
+    <Button
+        android:id="@+id/btnUbah1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="#3F51B5"
+        android:text="Ubah"
+        app:layout_constraintEnd_toEndOf="@+id/imvFotoU"
+        app:layout_constraintStart_toStartOf="@+id/edFotoU"
+        app:layout_constraintTop_toBottomOf="@+id/edFotoU" />
+
+    <ImageView
+        android:id="@+id/imvFotoU"
+        android:layout_width="36dp"
+        android:layout_height="38dp"
+        app:layout_constraintBottom_toBottomOf="@+id/edFotoU"
+        app:layout_constraintEnd_toEndOf="@+id/edStatusU"
+        app:layout_constraintTop_toTopOf="@+id/edFotoU"
+        app:srcCompat="@drawable/gambar" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "771690324492",
+    "project_id": "kost-bu-tik",
+    "storage_bucket": "kost-bu-tik.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:771690324492:android:dcc81924957820b4420429",
+        "android_client_info": {
+          "package_name": "tiga.kelompok.kostbutik"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBq2IVvaQNbzHD0WAlJmaUFSB5x8Ga4xVE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/crud">
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="180dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="114dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="117dp"
+        android:text="UBAH PEMBAYARAN"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="30dp"
+        android:text="Penyewa"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView33" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Jumlah Bayar"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="@+id/spPenyewaU"
+        app:layout_constraintTop_toBottomOf="@+id/spPenyewaU" />
+
+    <Spinner
+        android:id="@+id/spPenyewaU"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        app:layout_constraintStart_toStartOf="@+id/textView34"
+        app:layout_constraintTop_toBottomOf="@+id/textView34" />
+
+    <EditText
+        android:id="@+id/edJmlBayarU"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:inputType="text"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="@+id/textView35"
+        app:layout_constraintTop_toBottomOf="@+id/textView35" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Tanggal Bayar"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="@+id/edJmlBayarU"
+        app:layout_constraintTop_toBottomOf="@+id/edJmlBayarU" />
+
+    <EditText
+        android:id="@+id/edTanggalBayarU"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:inputType="text"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="@+id/textView36"
+        app:layout_constraintTop_toBottomOf="@+id/textView36" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Metode Bayar"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="@+id/edTanggalBayarU"
+        app:layout_constraintTop_toBottomOf="@+id/edTanggalBayarU" />
+
+    <EditText
+        android:id="@+id/edMetodeBayarU"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:inputType="text"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="@+id/textView37"
+        app:layout_constraintTop_toBottomOf="@+id/textView37" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Status Bayar"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="@+id/edMetodeBayarU"
+        app:layout_constraintTop_toBottomOf="@+id/edMetodeBayarU" />
+
+    <EditText
+        android:id="@+id/edStatusBayarU"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:inputType="text"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="@+id/textView38"
+        app:layout_constraintTop_toBottomOf="@+id/textView38" />
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Jatuh Tempo"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="@+id/edStatusBayarU"
+        app:layout_constraintTop_toBottomOf="@+id/edStatusBayarU" />
+
+    <EditText
+        android:id="@+id/edJatuhTempoU"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:inputType="text"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="@+id/textView39"
+        app:layout_constraintTop_toBottomOf="@+id/textView39" />
+
+    <Button
+        android:id="@+id/btnUbah2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#3F51B5"
+        android:text="Ubah"
+        app:layout_constraintEnd_toEndOf="@+id/edJatuhTempoU"
+        app:layout_constraintStart_toStartOf="@+id/edJatuhTempoU"
+        tools:layout_editor_absoluteY="566dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
